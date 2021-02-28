@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+header{
+  width: 100%;
+  line-height: 3;
+  border-bottom: 1px solid black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+}
+header img{
+  width: 100px;
+  margin-bottom: -16px;
+  margin-left: 40px;
+  padding-top: 20px;
+  margin-right: 10px;
+}
+header span{
+  font-size: 25px;
+}
+header ul{
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+header ul li{
+  padding: 0 15px;
+  font-weight: bold;
+  color:grey
+}
+header ul li:last-child{
+  color: #0066FF;
+  border-bottom: 3px solid #0066FF;
+}
+header div{
+  position: absolute;
+  top: 30px;
+  right: 25px;
+}
+header div i{
+  font-size: 22px;
+  vertical-align: middle;
+  padding: 0 15px;
+}
+header div button{
+  color: white;
+  background-color: #0066FF;
+  border: 1px solid #0066FF;
+  border-radius: 5px;
+  padding: 8px;
+  width: 100px;
+}
+.container{
+  margin: 0 100px;
+}
+main{
+  margin-top: 200px;
+}
+h2{
+  font-weight: bold;
+  font-size: 24px;
+}
+.text{
+  line-height: 1.6;
+  padding: 20px 0;
+}
+li{
+  padding: 10px 0;
+}
+footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+footer ul{
+  display: flex;
+  list-style: none;
+}
+footer ul li{
+  color: darkgrey;
+  padding: 0 10px;
+}
